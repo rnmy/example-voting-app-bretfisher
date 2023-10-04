@@ -19,6 +19,7 @@ on:
   schedule:
     # re-run montly to keep image fesh with upstream base images
     - cron: '0 12 15 * *'
+  workflow_dispatch:
 
 jobs:
   call-docker-build:

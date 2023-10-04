@@ -70,7 +70,7 @@ jobs:
       
       ### path to where docker should copy files into image
       ### defaults to root of repository (.)
-      context: ./result
+      # context: ./result
       
       ### Dockerfile alternate name. Default is Dockerfile (relative to context path)
       # file: Containerfile
